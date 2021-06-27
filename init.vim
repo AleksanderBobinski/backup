@@ -42,7 +42,7 @@ let g:ycm_autoclose_preview_window_after_completion = 1
 let g:ycm_key_list_select_completion = ['<TAB>']
 let g:ycm_rust_toolchain_root = '/usr/'
 " https://vi.stackexchange.com/questions/13795/how-to-see-a-whole-message-in-status-bar-in-vim
-Plug 'Valloric/ListToggle'
+" Plug 'Valloric/ListToggle'
 
 nnoremap <leader>g :YcmCompleter GoTo<CR>
 nnoremap <leader>r :YcmCompleter RefactorRename 
