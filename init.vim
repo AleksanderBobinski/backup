@@ -12,7 +12,7 @@ Plug 'vim-scripts/mru.vim'
 autocmd Filetype py match :set tw=120
 :set fo+=t
 "Expand tabs
-:set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab tw=79
+:set tabstop=8 smarttab tw=79
 " Copy to and from system clipboard by default
 :set clipboard^=unnamedplus
 
