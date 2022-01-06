@@ -19,6 +19,9 @@ autocmd Filetype py match :set tw=120
 " Show marks
 Plug 'kshenoy/vim-signature'
 
+" Show git diff inline
+Plug 'airblade/vim-gitgutter'
+
 " Show trailing whitespace
 " :set list listchars=trail:·
 
