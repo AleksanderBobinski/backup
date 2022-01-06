@@ -16,6 +16,9 @@ autocmd Filetype py match :set tw=120
 " Copy to and from system clipboard by default
 :set clipboard^=unnamedplus
 
+" Show marks
+Plug 'kshenoy/vim-signature'
+
 " Show trailing whitespace
 " :set list listchars=trail:·
 
