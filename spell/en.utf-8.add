@@ -455,3 +455,10 @@ opsy
 repo
 BSP
 systemctl
+workspaces
+autojump
+jc
+CDPATH
+fasd
+YOCTO
+gmock
