@@ -37,6 +37,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " Brackets
 Plug 'cohama/lexima.vim'
 
+" Python linters
+Plug 'vim-syntastic/syntastic'
+
 Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --all' }
 let g:ycm_server_python_interpreter = 'python'
 let g:ycm_always_populate_location_list = 1
