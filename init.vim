@@ -100,7 +100,7 @@ set number
 
 set mouse=a
 set nowrap
-:colorscheme delek
+:colorscheme peachpuff
 
 " lightline
 set noshowmode
