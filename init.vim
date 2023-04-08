@@ -13,8 +13,6 @@ autocmd Filetype py match :set tw=120
 :set fo+=t
 "Expand tabs
 :set tabstop=8 smarttab tw=79
-" Copy to and from system clipboard by default
-:set clipboard^=unnamedplus
 
 " Show marks
 Plug 'kshenoy/vim-signature'
