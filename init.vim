@@ -143,25 +143,3 @@ endfunction
 " Exit vim if last buffer is closed and close NERDTree as well
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-" Python autoimport
-function! s:PyPreSave()
-    Black
-endfunction
-
-function! s:PyPostSave()
-    execute "silent !tidy-imports --black --quiet --replace-star-imports --action REPLACE " . bufname("%")
-    execute "e"
-endfunction
-
-:command! PyPreSave :call s:PyPreSave()
-:command! PyPostSave :call s:PyPostSave()
-
-augroup waylonwalker
-    autocmd!
-    autocmd bufwritepre *.py execute 'PyPreSave'
-    autocmd bufwritepost *.py execute 'PyPostSave'
-    autocmd bufwritepost .tmux.conf execute ':!tmux source-file %'
-    autocmd bufwritepost .tmux.local.conf execute ':!tmux source-file %'
-    autocmd bufwritepost *.vim execute ':source %'
-augroup end
-
