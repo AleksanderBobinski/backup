@@ -140,10 +140,6 @@ function! s:CombineSelection(line1, line2, cp)
   execute a:line1.','.a:line2.'s/\%V[^[:cntrl:]]/&'.char.'/ge'
 endfunction
 
-" Open NERDTree in after startup and move cursor to an open buffer
-autocmd VimEnter * NERDTree | wincmd p
-" Open NERDTree in every buffer
-autocmd BufWinEnter * NERDTree
 " Exit vim if last buffer is closed and close NERDTree as well
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
