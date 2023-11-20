@@ -33,7 +33,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 "Completion
 " Brackets
-Plug 'cohama/lexima.vim'
+"Plug 'cohama/lexima.vim'
 
 " Python linters
 Plug 'vim-syntastic/syntastic'
@@ -70,7 +70,7 @@ autocmd Filetype py match MatchParen '\%>79v.\+'
 
 "C++
 Plug 'octol/vim-cpp-enhanced-highlight'
-Plug 'rhysd/vim-clang-format'
+"Plug 'rhysd/vim-clang-format'
 autocmd Filetype cpp let g:clang_format#style_options = { "BasedOnStyle" : "Google"}
 let g:clang_format#detect_style_file=1
 let g:clang_format#auto_format_on_insert_leave=1
@@ -98,7 +98,7 @@ set number
 
 set mouse=a
 set nowrap
-:colorscheme peachpuff
+:colorscheme desert
 
 " lightline
 set noshowmode
