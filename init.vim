@@ -98,7 +98,8 @@ set number
 
 set mouse=a
 set nowrap
-:colorscheme desert
+" Follow system colour theme
+Plug 'vimpostor/vim-lumen'
 
 " lightline
 set noshowmode
