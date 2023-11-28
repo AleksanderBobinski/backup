@@ -1,0 +1,48 @@
+# My System Configuration Scripts
+
+## Goal
+
+My current laptop is dying. I expect to transition to a new one in the next
+couple of years but I would like to keep most of my current configs.
+
+There are two targets:
+1. Have a set of scripts that would customize a base insulation of Arch with
+most of the configs that I've picked up over the years.
+2. Use this set of scripts to test system changes in a VM before applying them
+on the live system.
+
+## Requirements
+
+### Working environments
+
+There are three environments where the scripts must work.
+different use-cases exist. The environments are:
+
+1. A new machine
+2. A test VM
+3. A live system
+
+Ideally one could ssh into the new machine from an old machine. If that is not
+possible because the old machine was damaged then setting up a new machine
+using a pendrive with an up-to-date ISO must be possible. The machine might not
+be an running on an x86_64 CPU.
+
+Taking into account the above it's safe to assume that the initial platform
+specific setup cannot be part of the scripts here. Hence the forward going
+assumption for the scripts must be that they will not have to do any platform
+specific setup.
+
+### Use Cases
+
+The scripts must setup a system so that these are possible.
+
+1. Update bootchain
+2. Run system upgrade (pacman -Syu)
+3. Recover from loosing passwords via 2FA tokens
+4. Recover memorabilia
+5. Run firefox
+6. Recover financial spreadsheets
+7. Recover CVs
+8. Recover collected articles and books for offline reading, such as "Calculus
+made easy"
+
