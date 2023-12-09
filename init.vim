@@ -38,19 +38,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 " Python linters
 Plug 'vim-syntastic/syntastic'
 
-Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --all' }
-let g:ycm_server_python_interpreter = 'python'
-let g:ycm_always_populate_location_list = 1
-"let g:ycm_clangd_binary_path = "/usr/bin/clangd"
-let g:ycm_clangd_args = ['-cross-file-rename']
-let g:ycm_complete_in_comments = 1
-let g:ycm_complete_in_strings = 1
-let g:ycm_autoclose_preview_window_after_completion = 1
-let g:ycm_key_list_select_completion = ['<TAB>']
-let g:ycm_rust_toolchain_root = '/usr/'
-" https://vi.stackexchange.com/questions/13795/how-to-see-a-whole-message-in-status-bar-in-vim
-" Plug 'Valloric/ListToggle'
-
 nnoremap <leader>g :YcmCompleter GoTo<CR>
 nnoremap <leader>r :YcmCompleter RefactorRename 
 nnoremap <leader><leader> :YcmCompleter GoToReferences<CR>
@@ -58,22 +45,12 @@ nnoremap <leader>t :YcmCompleter GetType<CR>
 nnoremap <leader>d :YcmCompleter GetDoc<CR>
 nnoremap <leader>f :YcmCompleter FixIt<CR>
 
-Plug 'SirVer/ultisnips'
-Plug 'honza/vim-snippets'
-let g:UltiSnipsExpandTrigger='<leader><TAB>'
-let g:UltiSnipsJumpForwardTrigger='<TAB>'
-let g:UltiSnipsJumpBackwardTrigger="<s-TAB>"
-
 "Python
 Plug 'davidhalter/jedi-vim'
 autocmd Filetype py match MatchParen '\%>79v.\+'
 
 "C++
 Plug 'octol/vim-cpp-enhanced-highlight'
-"Plug 'rhysd/vim-clang-format'
-autocmd Filetype cpp let g:clang_format#style_options = { "BasedOnStyle" : "Google"}
-let g:clang_format#detect_style_file=1
-let g:clang_format#auto_format_on_insert_leave=1
 
 " Markdown
 Plug 'godlygeek/tabular'
