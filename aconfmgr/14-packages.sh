@@ -1,3 +1,4 @@
+AddPackage borg # Deduplicating backup program with compression and authenticated encryption
 AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage flatpak-docs # Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
 AddPackage okular # Document Viewer
@@ -434,7 +435,6 @@ AddPackage --foreign clips # A forward-chaining rule-based programming language 
 AddPackage --foreign dxvk-bin # A Vulkan-based compatibility layer for Direct3D 9/10/11 which allows running 3D applications on Linux using Wine (Windows DLL binary files)
 AddPackage --foreign electricfence # A malloc(3) debugger that uses virtual memory hardware to detect illegal memory accesses.
 AddPackage --foreign gprolog # GNU Prolog
-AddPackage --foreign kwin-bismuth # Addon for KDE Plasma to arrange your windows automatically and switch between them using keyboard shortcuts, like tiling window managers.
 AddPackage --foreign neovim-drop-in # Emulate vim and vi executables with neovim
 AddPackage --foreign oh-my-zsh-git # A community-driven framework for managing your zsh configuration. Includes 180+ optional plugins and over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community
 AddPackage --foreign python-undervolt # Undervolt Intel CPUs under Linux
@@ -452,3 +452,4 @@ AddPackage --foreign youtube-dl # A command-line program to download videos from
 AddPackage --foreign aws-nuke-bin # Nuke a whole AWS account and delete all its resources.
 AddPackage --foreign golangci-lint-bin # Linters Runner for Go. 5x faster than gometalinter.
 AddPackage --foreign whatsapp-for-linux # An unofficial WhatsApp desktop application for linux
+AddPackage --foreign kwin-polonium-git # A tiling window manager for KWin 5.27 and up (Git version)
