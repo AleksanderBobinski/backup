@@ -1,3 +1,11 @@
+AddPackage breeze5 # Qt5 Breeze style
+AddPackage fdupes # a program for identifying or deleting duplicate files residing within specified directories
+AddPackage fig2dev # Format conversion utility that can be used with xfig
+AddPackage oxygen5 # Qt5 Oxygen style
+AddPackage plasma-systemmonitor # An interface for monitoring system sensors, process information and other system resources
+AddPackage plasma5-integration # Qt5 Platform Theme integration plugins for the Plasma workspaces
+AddPackage texlive-fontutils # TeX Live - Graphics and font utilities
+AddPackage texlive-latex # TeX Live - LaTeX fundamental packages
 AddPackage borg # Deduplicating backup program with compression and authenticated encryption
 AddPackage flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
 AddPackage flatpak-docs # Linux application sandboxing and distribution framework (formerly xdg-app) (documentation)
@@ -28,7 +36,6 @@ AddPackage bear # A tool to generate compilation database for clang tooling
 AddPackage binutils # A set of programs to assemble and manipulate binary and object files
 AddPackage binwalk # Tool for searching a given binary image for embedded files
 AddPackage bison # The GNU general-purpose parser generator
-AddPackage breeze # Artwork, styles and assets for the Breeze visual style for the Plasma Desktop
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
 AddPackage bzip2 # A high-quality data compression program
 AddPackage ccache # Compiler cache that speeds up recompilation by caching previous compilations
@@ -132,7 +139,6 @@ AddPackage kdialog # A utility for displaying dialog boxes from shell scripts
 AddPackage kdiff3 # A file comparator/merge tool
 AddPackage kernelshark # GUI frontend for trace-cmd based Linux kernel Ftrace captures
 AddPackage kgamma # Adjust your monitor gamma settings
-AddPackage khotkeys # KHotKeys
 AddPackage kinfocenter # A utility that provides information about a computer system
 AddPackage kmenuedit # KDE menu editor
 AddPackage kolourpaint # Paint Program
@@ -140,7 +146,6 @@ AddPackage konsole # KDE terminal emulator
 AddPackage kscreen # KDE screen management software
 AddPackage kscreenlocker # Library and components for secure lock screen architecture
 AddPackage ksshaskpass # ssh-add helper that uses kwallet and kpassworddialog
-AddPackage ksysguard # Track and control the processes running in your system
 AddPackage kwallet-pam # KWallet PAM integration
 AddPackage kwalletmanager # Wallet management tool
 AddPackage kwin # An easy to use, but flexible, composited Window Manager
@@ -209,7 +214,6 @@ AddPackage openmp # LLVM OpenMP Runtime Library
 AddPackage openresolv # resolv.conf management framework (resolvconf)
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
 AddPackage os-prober # Utility to detect other OSes on a set of drives
-AddPackage oxygen # KDE Oxygen style
 AddPackage p7zip # Command-line file archiver with high compression ratio
 AddPackage packagekit-qt5 # Qt5 bindings for PackageKit
 AddPackage pacman # A library-based package manager with dependency support
@@ -229,12 +233,10 @@ AddPackage pkgstats # Submit a list of installed packages to the Arch Linux proj
 AddPackage plantuml # Component that allows to quickly write uml diagrams
 AddPackage plasma-browser-integration # Components necessary to integrate browsers into the Plasma Desktop
 AddPackage plasma-desktop # KDE Plasma Desktop
-AddPackage plasma-integration # Qt Platform Theme integration plugins for the Plasma workspaces
 AddPackage plasma-nm # Plasma applet written in QML for managing network connections
 AddPackage plasma-pa # Plasma applet for audio volume management using PulseAudio
 AddPackage plasma-sdk # Applications useful for Plasma development
 AddPackage plasma-vault # Plasma applet and services for creating encrypted vaults
-AddPackage plasma-wayland-session # Plasma Wayland session
 AddPackage plasma-workspace # KDE Plasma Workspace
 AddPackage plasma-workspace-wallpapers # Additional wallpapers for the Plasma Workspace
 AddPackage podman # Tool and library for running OCI-based containers in pods
@@ -307,7 +309,6 @@ AddPackage qt5-xcb-private-headers # Private headers for Qt5 Xcb
 AddPackage qt5-xmlpatterns # Support for XPath, XQuery, XSLT and XML schema validation
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 AddPackage reiserfsprogs # Reiserfs utilities
-AddPackage remind # A sophisticated calendar and alarm program.
 AddPackage ripgrep # A search tool that combines the usability of ag with the raw speed of grep
 AddPackage rp-pppoe # Roaring Penguin's Point-to-Point Protocol over Ethernet client
 AddPackage rpcsvc-proto # rpcsvc protocol definitions from glibc
@@ -446,10 +447,10 @@ AddPackage --foreign tinyobjloader # Tiny but powerful single file wavefront obj
 AddPackage --foreign tor-browser # Tor Browser Bundle: anonymous browsing using Firefox and Tor
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 AddPackage --foreign vscodium-bin # Binary releases of VS Code without MS branding/telemetry/licensing.
-AddPackage --foreign whatsapp-nativefier # WhatsApp desktop built with nativefier (electron)
 AddPackage --foreign yay-bin # Yet another yogurt. Pacman wrapper and AUR helper written in go. Pre-compiled.
 AddPackage --foreign youtube-dl # A command-line program to download videos from YouTube.com and a few more sites
 AddPackage --foreign aws-nuke-bin # Nuke a whole AWS account and delete all its resources.
 AddPackage --foreign golangci-lint-bin # Linters Runner for Go. 5x faster than gometalinter.
-AddPackage --foreign whatsapp-for-linux # An unofficial WhatsApp desktop application for linux
 AddPackage --foreign kwin-polonium-git # A tiling window manager for KWin 5.27 and up (Git version)
+AddPackage --foreign khotkeys # KHotKeys
+AddPackage --foreign protontricks # A simple wrapper that does winetricks things for Proton enabled games.
