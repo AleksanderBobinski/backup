@@ -1,1 +1,3 @@
 *iso
+.terraform.lock.hcl
+.terraform/
