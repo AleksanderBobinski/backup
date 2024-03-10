@@ -6,3 +6,4 @@ qemu-system-x86_64 \
 	--hda /tmp/test.img \
 	-m 4096 \
 	-smp sockets=1,cores=4 \
+	-accel kvm \
