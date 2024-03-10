@@ -7,3 +7,4 @@ qemu-system-x86_64 \
 	-m 4096 \
 	-smp sockets=1,cores=4 \
 	-accel kvm \
+	-bios /usr/share/ovmf/x64/OVMF.fd \
