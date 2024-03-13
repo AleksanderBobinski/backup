@@ -39,7 +39,6 @@ AddPackage bison # The GNU general-purpose parser generator
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
 AddPackage bzip2 # A high-quality data compression program
 AddPackage ccache # Compiler cache that speeds up recompilation by caching previous compilations
-AddPackage cdemu-client # Simple command-line client for controlling cdemu-daemon
 AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage chrpath # Change or delete the rpath or runpath in ELF files
 AddPackage cimg # Open-source C++ toolkit for image processing
@@ -171,9 +170,6 @@ AddPackage licenses # A set of common license files
 AddPackage linssid # Graphical wireless scanner for Linux
 AddPackage linux # The Linux kernel and modules
 AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
-AddPackage linux-lts-headers # Headers and scripts for building modules for the LTS Linux kernel
-AddPackage linux-zen # The Linux ZEN kernel and modules
-AddPackage linux-zen-headers # Headers and scripts for building modules for the Linux ZEN kernel
 AddPackage lldb # Next generation, high-performance debugger
 AddPackage lnav # A curses-based tool for viewing and analyzing log files
 AddPackage logrotate # Rotates system logs automatically
