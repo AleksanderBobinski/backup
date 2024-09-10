@@ -38,7 +38,6 @@ AddPackage binwalk # Tool for searching a given binary image for embedded files
 AddPackage bison # The GNU general-purpose parser generator
 AddPackage breeze-gtk # Breeze widget theme for GTK 2 and 3
 AddPackage bzip2 # A high-quality data compression program
-AddPackage ccache # Compiler cache that speeds up recompilation by caching previous compilations
 AddPackage chromium # A web browser built for speed, simplicity, and security
 AddPackage chrpath # Change or delete the rpath or runpath in ELF files
 AddPackage cimg # Open-source C++ toolkit for image processing
@@ -60,7 +59,6 @@ AddPackage dmenu # Generic menu for X
 AddPackage dnsmasq # Lightweight, easy to configure DNS forwarder and DHCP server
 AddPackage docker # Pack, ship and run any application as a lightweight container
 AddPackage docker-buildx # Docker CLI plugin for extended build capabilities with BuildKit
-AddPackage docker-compose # Fast, isolated development environments using Docker
 AddPackage dolphin # KDE File Manager
 AddPackage dos2unix # Text file format converter
 AddPackage doxygen # Documentation system for C++, C, Java, IDL and PHP
@@ -69,7 +67,6 @@ AddPackage drkonqi # The KDE crash handler
 AddPackage e2fsprogs # Ext2/3/4 filesystem utilities
 AddPackage edk2-shell # EDK2 UEFI Shell
 AddPackage efibootmgr # Linux user-space application to modify the EFI Boot Manager
-AddPackage emacs # The extensible, customizable, self-documenting real-time display editor
 AddPackage espeak-ng # Multi-lingual software speech synthesizer
 AddPackage ethtool # Utility for controlling network drivers and hardware
 AddPackage fakeroot # Tool for simulating superuser privileges
@@ -106,9 +103,7 @@ AddPackage grep # A string search utility
 AddPackage groff # GNU troff text-formatting system
 AddPackage grub # GNU GRand Unified Bootloader (2)
 AddPackage gtest # Google Test - C++ testing utility
-AddPackage gtk-doc # Documentation tool for public library API
 AddPackage gzip # GNU compression utility
-AddPackage helix # A post-modern modal text editor
 AddPackage hplip # Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet
 AddPackage htop # Interactive process viewer
 AddPackage hunspell-pl # Polish dictionary for Hunspell
@@ -149,13 +144,8 @@ AddPackage kwallet-pam # KWallet PAM integration
 AddPackage kwalletmanager # Wallet management tool
 AddPackage kwin # An easy to use, but flexible, composited Window Manager
 AddPackage kwrited # KDE daemon listening for wall and write messages
-AddPackage latex2rtf # LaTeX to RTF converter
 AddPackage less # A terminal based program for viewing text files
-AddPackage lib32-fakeroot # Tool for simulating superuser privileges (32-bit)
 AddPackage lib32-gcc-libs # 32-bit runtime libraries shipped by GCC
-AddPackage lib32-libltdl # A generic library support script (32-bit)
-AddPackage lib32-libpulse # A featureful, general-purpose sound server (32-bit client libraries)
-AddPackage lib32-vkd3d # Direct3D 12 to Vulkan translation library By WineHQ
 AddPackage lib32-vulkan-intel # Intel's Vulkan mesa driver (32-bit)
 AddPackage lib32-vulkan-mesa-layers # Mesa's Vulkan layers (32-bit)
 AddPackage libc++ # LLVM C++ standard library.
@@ -191,7 +181,6 @@ AddPackage mplayer # Media player for Linux
 AddPackage mpv # a free, open source, and cross-platform media player
 AddPackage mypy # Optional static typing for Python 2 and 3 (PEP484)
 AddPackage ncdu # Disk usage analyzer with an ncurses interface
-AddPackage nemo # Cinnamon file manager (Nautilus fork)
 AddPackage neofetch # A CLI system information tool written in BASH that supports displaying images.
 AddPackage neovim # Fork of Vim aiming to improve user experience, plugins, and GUIs
 AddPackage neovim-qt # GUI for Neovim
@@ -235,7 +224,6 @@ AddPackage plasma-sdk # Applications useful for Plasma development
 AddPackage plasma-vault # Plasma applet and services for creating encrypted vaults
 AddPackage plasma-workspace # KDE Plasma Workspace
 AddPackage plasma-workspace-wallpapers # Additional wallpapers for the Plasma Workspace
-AddPackage podman # Tool and library for running OCI-based containers in pods
 AddPackage polkit-kde-agent # Daemon providing a polkit authentication UI for KDE
 AddPackage portaudio # A free, cross-platform, open source, audio I/O library.
 AddPackage powerdevil # Manages the power consumption settings of a Plasma Shell
@@ -245,8 +233,6 @@ AddPackage procps-ng # Utilities for monitoring your system and its processes
 AddPackage psmisc # Miscellaneous procfs tools
 AddPackage pv # A terminal-based tool for monitoring the progress of data through a pipeline
 AddPackage pypy # A Python implementation written in Python, JIT enabled
-AddPackage pyside2 # Enables the use of Qt5 APIs in Python applications
-AddPackage python-black # Uncompromising Python code formatter
 AddPackage python-coverage # A tool for measuring code coverage of Python programs
 AddPackage python-coverage-conditional-plugin # Conditional coverage based on any rules you define
 AddPackage python-django # A high-level Python Web framework that encourages rapid development and clean design
@@ -256,7 +242,6 @@ AddPackage python-joblib # Set of tools to provide lightweight pipelining in Pyt
 AddPackage python-lsp-server # Fork of the python-language-server project, maintained by the Spyder IDE team and the community
 AddPackage python-notify2 # Python interface to DBus notifications
 AddPackage python-numpy # Scientific tools for Python
-AddPackage python-opencv # Python bindings for OpenCV
 AddPackage python-piexif # To simplify exif manipulations with python. Writing, reading, and more
 AddPackage python-pillow # Python Imaging Library (PIL) fork
 AddPackage python-pip # The PyPA recommended tool for installing Python packages
@@ -392,13 +377,8 @@ AddPackage zsh-history-substring-search # ZSH port of Fish history search (up ar
 AddPackage zsh-syntax-highlighting # Fish shell like syntax highlighting for Zsh
 AddPackage zvbi # VBI capture and decoding library
 AddPackage akonadiconsole # Akonadi management and debugging console
-AddPackage ansible # Official assortment of Ansible collections
-AddPackage ansible-core # Radically simple IT automation platform
-AddPackage ansible-language-server # Ansible Language Server
-AddPackage ansible-lint # Checks playbooks for practices and behaviour that could potentially be improved.
 AddPackage ant # Java based build tool
 AddPackage apr # The Apache Portable Runtime
-AddPackage aws-cli-v2 # Unified command line interface for Amazon Web Services (version 2)
 AddPackage bats # Bash Automated Testing System
 AddPackage bats-assert # Common assertions for Bats
 AddPackage beanshell # Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java
@@ -408,10 +388,8 @@ AddPackage delve # A debugger for the Go programming language.
 AddPackage glm # C++ mathematics library for 3D software based on the OpenGL Shading Language (GLSL) specification
 AddPackage gperf # Perfect hash function generator
 AddPackage grpc-cli # gRPC protocol buffers cli
-AddPackage jdk17-openjdk # OpenJDK Java 17 development kit
 AddPackage junit # Simple JVM framework to write repeatable tests
 AddPackage kdepim-addons # Addons for KDE PIM applications
-AddPackage korganizer # Calendar and scheduling Program
 AddPackage libmythes # a simple thesaurus
 AddPackage mdds # A collection of multi-dimensional data structures and indexing algorithms
 AddPackage nasm # 80x86 assembler designed for portability and modularity
@@ -419,10 +397,7 @@ AddPackage pre-commit # A framework for managing and maintaining multi-language 
 AddPackage python-grpcio # Python language bindings for grpc, remote procedure call (RPC) framework
 AddPackage python-grpcio-tools # Python protobuf generator for GRPC
 AddPackage qemu-desktop # A QEMU setup for desktop environments
-AddPackage qt6-grpc # Provides the modules QtGrpc and QtProtobuf
-AddPackage serf # High-performance asynchronous HTTP client library
 AddPackage unixodbc # ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
-AddPackage vim-ansible # A vim plugin for syntax highlighting Ansible's common filetypes
 AddPackage wine # A compatibility layer for running Windows programs
 AddPackage zip # Compressor/archiver for creating and modifying zipfiles
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
@@ -435,14 +410,12 @@ AddPackage --foreign gprolog # GNU Prolog
 AddPackage --foreign neovim-drop-in # Emulate vim and vi executables with neovim
 AddPackage --foreign oh-my-zsh-git # A community-driven framework for managing your zsh configuration. Includes 180+ optional plugins and over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community
 AddPackage --foreign python-undervolt # Undervolt Intel CPUs under Linux
-AddPackage --foreign simplescreenrecorder # A feature-rich screen recorder that supports X11 and OpenGL.
 AddPackage --foreign sip4 # A tool that makes it easy to create Python bindings for C and C++ libraries
 AddPackage --foreign snake # A simple lightweight terminal snake game
 AddPackage --foreign tinygltf # Header only C++ tiny glTF library(loader/saver)
 AddPackage --foreign tinyobjloader # Tiny but powerful single file wavefront obj loader
 AddPackage --foreign tor-browser # Tor Browser Bundle: anonymous browsing using Firefox and Tor
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
-AddPackage --foreign vscodium-bin # Binary releases of VS Code without MS branding/telemetry/licensing.
 AddPackage --foreign yay-bin # Yet another yogurt. Pacman wrapper and AUR helper written in go. Pre-compiled.
 AddPackage --foreign youtube-dl # A command-line program to download videos from YouTube.com and a few more sites
 AddPackage --foreign aws-nuke-bin # Nuke a whole AWS account and delete all its resources.
@@ -450,3 +423,6 @@ AddPackage --foreign golangci-lint-bin # Linters Runner for Go. 5x faster than g
 AddPackage --foreign kwin-polonium-git # A tiling window manager for KWin 5.27 and up (Git version)
 AddPackage --foreign khotkeys # KHotKeys
 AddPackage --foreign protontricks # A simple wrapper that does winetricks things for Proton enabled games.
+AddPackage --foreign aws-cli-v2 # Unified command line interface for Amazon Web Services (version 2)
+AddPackage --foreign git-extras # GIT utilities -- repo summary, commit counting, repl, changelog population and more
+AddPackage --foreign latex2rtf # LaTeX to RTF converter
