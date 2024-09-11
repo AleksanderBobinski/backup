@@ -11,5 +11,5 @@ vagrant ssh -c 'git clone https://aur.archlinux.org/yay-bin.git ~/yay-bin'
 vagrant ssh -c 'cd ~/yay-bin && makepkg -si --noconfirm --needed'
 vagrant ssh -c 'yay -S --noconfirm aconfmgr-git'
 vagrant ssh -c 'rm -Rf ~/backup'
-vagrant ssh -c 'git clone https://github.com/AleksanderBobinski/backup.git ~/backup'
+vagrant upload ./aconfmgr ./backup/aconfmgr
 vagrant ssh -c 'cd ~/backup/aconfmgr &&  aconfmgr --aur-helper yay --config ./ apply --yes --verbose'
