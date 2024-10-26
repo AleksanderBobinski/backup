@@ -2,6 +2,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
 "Everyday
+:colorscheme delek
 Plug 'itchyny/lightline.vim'
 Plug 'vim-scripts/mru.vim'
 :set spelllang=en_us,pl
