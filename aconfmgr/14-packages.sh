@@ -1,3 +1,13 @@
+AddPackage act # Run your GitHub Actions locally
+AddPackage gnucash # Personal and small-business financial-accounting application
+AddPackage gnucash-docs # Documentation for GnuCash
+AddPackage jupyterlab # JupyterLab computational environment
+AddPackage meld # Compare files, directories and working copies
+AddPackage podman # Tool and library for running OCI-based containers in pods
+AddPackage python-importlib_resources # Design and implementation for a planned importlib.resources
+AddPackage python-keras # Deep Learning for humans
+AddPackage python-matplotlib # A python plotting library, making publication quality plots
+AddPackage qt6-multimedia-gstreamer # Gstreamer backend for qt6-multimedia
 AddPackage breeze5 # Qt5 Breeze style
 AddPackage fdupes # a program for identifying or deleting duplicate files residing within specified directories
 AddPackage fig2dev # Format conversion utility that can be used with xfig
@@ -160,6 +170,7 @@ AddPackage licenses # A set of common license files
 AddPackage linssid # Graphical wireless scanner for Linux
 AddPackage linux # The Linux kernel and modules
 AddPackage linux-headers # Headers and scripts for building modules for the Linux kernel
+AddPackage linux-firmware # Firmware files for Linux
 AddPackage lldb # Next generation, high-performance debugger
 AddPackage lnav # A curses-based tool for viewing and analyzing log files
 AddPackage logrotate # Rotates system logs automatically
@@ -236,7 +247,6 @@ AddPackage pypy # A Python implementation written in Python, JIT enabled
 AddPackage python-coverage # A tool for measuring code coverage of Python programs
 AddPackage python-coverage-conditional-plugin # Conditional coverage based on any rules you define
 AddPackage python-django # A high-level Python Web framework that encourages rapid development and clean design
-AddPackage python-ipdb # IPython-enabled pdb
 AddPackage python-jinja # A simple pythonic template language written in Python
 AddPackage python-joblib # Set of tools to provide lightweight pipelining in Python
 AddPackage python-lsp-server # Fork of the python-language-server project, maintained by the Spyder IDE team and the community
@@ -270,22 +280,16 @@ AddPackage qpwgraph # PipeWire Graph Qt GUI Interface
 AddPackage qt5-3d # C++ and QML APIs for easy inclusion of 3D graphics
 AddPackage qt5-charts # Provides a set of easy to use chart components
 AddPackage qt5-datavis3d # Qt Data Visualization module
-AddPackage qt5-gamepad # Adds support for getting events from gamepad devices
 AddPackage qt5-imageformats # Plugins for additional image formats: TIFF, MNG, TGA, WBMP
-AddPackage qt5-lottie # A family of player software for a certain json-based file format for describing 2d vector graphics animations
 AddPackage qt5-networkauth # Network authentication module
-AddPackage qt5-purchasing # Qt In-App Purchasing API
 AddPackage qt5-quick3d # Qt module and API for defining 3D content in Qt Quick
 AddPackage qt5-remoteobjects # Inter-process communication (IPC) module developed for Qt
 AddPackage qt5-scxml # Static and runtime integration of SCXML models into Qt code
-AddPackage qt5-serialbus # Qt module for general purpose serial bus access
 AddPackage qt5-serialport # Provides access to hardware and virtual serial ports
 AddPackage qt5-translations # A cross-platform application and UI framework (Translations)
 AddPackage qt5-virtualkeyboard # Virtual keyboard framework
 AddPackage qt5-wayland # Provides APIs for Wayland
-AddPackage qt5-webglplugin # QPA plugin for running an application via a browser using streamed WebGL commands
 AddPackage qt5-websockets # Provides WebSocket communication compliant with RFC 6455
-AddPackage qt5-webview # Provides a way to display web content in a QML application
 AddPackage qt5-xcb-private-headers # Private headers for Qt5 Xcb
 AddPackage qt5-xmlpatterns # Support for XPath, XQuery, XSLT and XML schema validation
 AddPackage reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
@@ -403,7 +407,6 @@ AddPackage zip # Compressor/archiver for creating and modifying zipfiles
 AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 AddPackage --foreign alpaca.cpp-git # Locally run an Instruction-Tuned Chat-Style LLM
 AddPackage --foreign autojump-rs # A faster way to navigate your filesystem from the command line (in Rust)
-AddPackage --foreign clips # A forward-chaining rule-based programming language written in C that also provides procedural and object-oriented programming facilities.
 AddPackage --foreign dxvk-bin # A Vulkan-based compatibility layer for Direct3D 9/10/11 which allows running 3D applications on Linux using Wine (Windows DLL binary files)
 AddPackage --foreign electricfence # A malloc(3) debugger that uses virtual memory hardware to detect illegal memory accesses.
 AddPackage --foreign gprolog # GNU Prolog
@@ -414,10 +417,7 @@ AddPackage --foreign sip4 # A tool that makes it easy to create Python bindings 
 AddPackage --foreign snake # A simple lightweight terminal snake game
 AddPackage --foreign tinygltf # Header only C++ tiny glTF library(loader/saver)
 AddPackage --foreign tinyobjloader # Tiny but powerful single file wavefront obj loader
-AddPackage --foreign tor-browser # Tor Browser Bundle: anonymous browsing using Firefox and Tor
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
-AddPackage --foreign yay-bin # Yet another yogurt. Pacman wrapper and AUR helper written in go. Pre-compiled.
-AddPackage --foreign youtube-dl # A command-line program to download videos from YouTube.com and a few more sites
 AddPackage --foreign aws-nuke-bin # Nuke a whole AWS account and delete all its resources.
 AddPackage --foreign golangci-lint-bin # Linters Runner for Go. 5x faster than gometalinter.
 AddPackage --foreign kwin-polonium-git # A tiling window manager for KWin 5.27 and up (Git version)
@@ -426,3 +426,13 @@ AddPackage --foreign protontricks # A simple wrapper that does winetricks things
 AddPackage --foreign aws-cli-v2 # Unified command line interface for Amazon Web Services (version 2)
 AddPackage --foreign git-extras # GIT utilities -- repo summary, commit counting, repl, changelog population and more
 AddPackage --foreign latex2rtf # LaTeX to RTF converter
+AddPackage --foreign python-huggingface-hub-git # Client library to download and publish models on the huggingface.co hub
+AddPackage --foreign python-imutils # A series of convenience functions to make basic image processing asier with OpenCV
+AddPackage --foreign python-ipdb # IPython-enabled pdb
+AddPackage --foreign qt5-lottie # A family of player software for a certain json-based file format for describing 2d vector graphics animations
+AddPackage --foreign qt5-purchasing # Qt In-App Purchasing API
+AddPackage --foreign qt5-webglplugin # QPA plugin for running an application via a browser using streamed WebGL commands
+AddPackage --foreign qt5-webview # Provides a way to display web content in a QML application
+AddPackage --foreign tor-browser-bin # Tor Browser Bundle: anonymous browsing using Firefox and Tor
+AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper written in go.
+AddPackage --foreign youtube-dl-git # A small command-line program to download videos from YouTube.com and a few more sites (git version)
