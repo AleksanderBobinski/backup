@@ -1,0 +1,19 @@
+#!/usr/bin/env zsh
+
+mkdir -p ~/phalanx-games
+cd ~/phalanx-games
+
+phalanx -p + -P ~/Exe -S ~/Exe -z 100:50 -e99 | grep --line-buffered "move is" | stdbuf -oL cut -d ' ' -f 4 |
+stdbuf -oL tee "$(date --iso=s).txt" |
+stdbuf -oL sed 's/K/King /' |
+stdbuf -oL sed 's/Q/Queen /' |
+stdbuf -oL sed 's/N/Knight /' |
+stdbuf -oL sed 's/B/Bishop /' |
+stdbuf -oL sed 's/R/Rook /' |
+stdbuf -oL sed 's/O-O/castles short /' |
+stdbuf -oL sed 's/O-O-O/castles long /' |
+stdbuf -oL sed 's/x/ takes /' |
+stdbuf -oL sed 's/White mates/ White wins /' |
+stdbuf -oL sed 's/Black mates/ White wins /' |
+stdbuf -oL sed 's/draw/ draw /' |
+espeak-ng
